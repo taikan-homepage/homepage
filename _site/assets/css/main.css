@@ -451,39 +451,74 @@ video {
   top: 0px;
   bottom: 0px; }
 
-.left-5 {
-  left: 1.25rem; }
+.-top-\[80vh\] {
+  top: -80vh; }
+
+.left-0 {
+  left: 0px; }
+
+.left-10 {
+  left: 2.5rem; }
 
 .left-\[-50vh\] {
   left: -50vh; }
 
-.right-3 {
-  right: 0.75rem; }
+.right-10 {
+  right: 2.5rem; }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto; }
 
 .my-auto {
   margin-top: auto;
   margin-bottom: auto; }
 
+.ml-10 {
+  margin-left: 2.5rem; }
+
+.mt-5 {
+  margin-top: 1.25rem; }
+
+.ml-5 {
+  margin-left: 1.25rem; }
+
 .flex {
   display: flex; }
+
+.h-60 {
+  height: 15rem; }
 
 .h-\[100vh\] {
   height: 100vh; }
 
+.h-\[60px\] {
+  height: 60px; }
+
+.h-\[70px\] {
+  height: 70px; }
+
 .h-screen {
   height: 100vh; }
 
+.w-2\/3 {
+  width: 66.666667%; }
+
 .w-\[100vh\] {
   width: 100vh; }
-
-.w-auto {
-  width: auto; }
 
 .rounded-full {
   border-radius: 9999px; }
 
 .border-2 {
   border-width: 2px; }
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem; }
+
+.font-bold {
+  font-weight: 700; }
 
 .shadow-inner {
   --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);

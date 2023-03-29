@@ -1,28 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>{{ page.title }} - {{ site.title }}</title>
-		<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-	</head>
+---
+layout: home
+---
+<div class="absolute -top-[80vh] left-[-50vh] my-auto h-[100vh] w-[100vh] rounded-full border-2 shadow-inner">	
+</div>
 
-	<body>
-		<div class="absolute left-[-50vh] h-[100vh] w-[100vh] my-auto rounded-full border-2 shadow-inner">
-		</div>
-		
-		<div class="flex inset-y-0 left-5 h-screen">
-			<img class="my-auto" src="assets/img/MSO_logo.svg">
-		</div>
-		
-		<nav class="fixed flex inset-y-0 right-3">
-			<ul class="my-auto">
-				<li>Home</li>
-				<li>Stats</li>
-				<li>Blog</li>
-				<li>About us</li>
-				<li>Contacts</li>
-			</ul>
-		</nav>
-		{{ content }}
-	</body>
-</html>
+<div class="h-60 flex inset-y-0 left-0">
+	<img class="mt-5 ml-5 h-[60px]" src="assets/img/MSO_logo.svg">
+</div>
+
+<div class="w-2/3 mx-auto">
+	{{ content }}
+</div>
