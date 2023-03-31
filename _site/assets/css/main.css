@@ -539,6 +539,15 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-\[9vh\] {
+  height: 9vh;
+}
+.h-\[18vh\] {
+  height: 18vh;
+}
+.h-\[9vw\] {
+  height: 9vw;
+}
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -553,6 +562,15 @@ video {
 }
 .w-auto {
   width: auto;
+}
+.w-\[16vh\] {
+  width: 16vh;
+}
+.w-\[32vh\] {
+  width: 32vh;
+}
+.w-\[16vw\] {
+  width: 16vw;
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -579,6 +597,10 @@ video {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .object-cover {
   -o-object-fit: cover;

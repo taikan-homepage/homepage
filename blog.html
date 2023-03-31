@@ -6,9 +6,7 @@ title: Blog
 <div class="grid grid-cols-3 gap-8">
 	{% for post in site.posts %}
 		<div class="">
-			<div class="w-auto aspect-video">
-				<img class="object-cover rounded" src="{{ site.baseurl }}/assets/img/thumbnail_placeholder.jpg">
-			</div>
+			<img class="w-[16vw] aspect-video object-cover rounded" src="{{ site.baseurl }}/assets/img/thumbnail_placeholder.jpg">
 			<div class="pt-2">
 				<p class="block text-sm font-light">{{ post.date | date: "%Y %m/%d" }}</p>
 				<p class="block font-bold">{{ post.title }}</p>
