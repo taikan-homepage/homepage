@@ -9,13 +9,12 @@
 	<body>
 		<nav class="fixed flex inset-y-0 right-10">
 			<ul class="my-auto">
-				<li><a href="{{ site.baseurl }}/">Home</a></li>
-				<li id=""><a href="{{ site.baseurl }}/stats">Stats</a></li>
-				<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-				<li><a href="{{ site.baseurl }}/aboutus">About us</a></li>
-				<li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+				{% for item in site.data.navigation %}
+					<li {% if page.url == item.link %}class="font-bold"{% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
+				{% endfor %}
 			</ul>
 		</nav>
 		{{ content }}
+		<script src="{{ "/assets/js/navigation.js"| relative_url }}"></scripts>
 	</body>
 </html>
