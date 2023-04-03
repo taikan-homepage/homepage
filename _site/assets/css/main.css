@@ -495,6 +495,18 @@ video {
 .right-10 {
   right: 2.5rem;
 }
+.top-\[60vh\] {
+  top: 60vh;
+}
+.left-\[-30vh\] {
+  left: -30vh;
+}
+.left-\[-45vh\] {
+  left: -45vh;
+}
+.left-\[-55vh\] {
+  left: -55vh;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -508,6 +520,27 @@ video {
 }
 .mt-5 {
   margin-top: 1.25rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mt-80 {
+  margin-top: 20rem;
+}
+.mt-60 {
+  margin-top: 15rem;
+}
+.mt-\[25vh\] {
+  margin-top: 25vh;
+}
+.mt-\[72vh\] {
+  margin-top: 72vh;
+}
+.mt-\[60vh\] {
+  margin-top: 60vh;
+}
+.mt-\[58vh\] {
+  margin-top: 58vh;
 }
 .block {
   display: block;
@@ -539,6 +572,9 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-\[75vh\] {
+  height: 75vh;
+}
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -553,6 +589,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[75vh\] {
+  width: 75vh;
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -636,4 +675,28 @@ video {
 .hover\:saturate-100:hover {
   --tw-saturate: saturate(1);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (min-width: 640px) {
+
+  .sm\:left-\[-50vh\] {
+    left: -50vh;
+  }
+
+  .sm\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .sm\:h-\[100vh\] {
+    height: 100vh;
+  }
+
+  .sm\:h-\[70px\] {
+    height: 70px;
+  }
+
+  .sm\:w-\[100vh\] {
+    width: 100vh;
+  }
 }

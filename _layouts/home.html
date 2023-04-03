@@ -9,7 +9,7 @@
 
 	<body>
 		<nav class="fixed flex inset-y-0 right-10">
-			<ul class="my-auto">
+			<ul class="mt-10 sm:my-auto">
 				{% for item in site.data.navigation %}
 					<li {% if page.url == item.link %}class="font-bold"{% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
 				{% endfor %}
