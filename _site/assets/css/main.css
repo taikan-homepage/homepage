@@ -593,8 +593,17 @@ video {
 .w-\[75vh\] {
   width: 75vh;
 }
+.w-\[32vw\] {
+  width: 32vw;
+}
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.place-content-center {
+  place-content: center;
 }
 .gap-8 {
   gap: 2rem;
@@ -698,5 +707,13 @@ video {
 
   .sm\:w-\[100vh\] {
     width: 100vh;
+  }
+
+  .sm\:w-\[16vw\] {
+    width: 16vw;
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

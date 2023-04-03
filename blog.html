@@ -3,13 +3,13 @@ layout: default
 title: Blog
 ---
 <h1 class="font-bold text-2xl">Blog</h1>
-<div class="grid grid-cols-3 gap-8">
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-8 place-content-center">
 	{% for post in site.posts %}
 		<div class="">
-			<img class="w-[16vw] aspect-video object-cover rounded saturate-0 hover:saturate-100 blog-shadow" src="{{ site.baseurl }}/assets/img/default_thumbnail.png">
+			<img class="w-100% aspect-video object-cover rounded saturate-0 hover:saturate-100 blog-shadow" src="{{ site.baseurl }}/assets/img/default_thumbnail.png">
 			<div class="pt-2">
 				<p class="block text-sm font-light">{{ post.date | date: "%Y %m/%d" }}</p>
-				<p class="block font-bold">{{ post.title }}</p>
+				<a href="{{ post.url }}" class="block font-bold">{{ post.title }}</a>
 			</div>
 		</div>
 	{% endfor %}
