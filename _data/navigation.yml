@@ -1,7 +1,5 @@
 - name: Home
   link: /
-- name: Stats
-  link: /stats.html
 - name: Blog
   link: /blog.html
 - name: About us
