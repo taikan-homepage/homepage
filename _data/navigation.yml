@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog.html
+- name: Infomation
+  link: /infomation.html
 - name: About us
   link: /aboutus.html
 - name: Contact
