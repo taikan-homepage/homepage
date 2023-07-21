@@ -557,15 +557,6 @@ video {
 .w-\[75vh\] {
   width: 75vh;
 }
-.w-24 {
-  width: 6rem;
-}
-.w-2\/5 {
-  width: 40%;
-}
-.w-3\/5 {
-  width: 60%;
-}
 .w-auto {
   width: auto;
 }
@@ -587,10 +578,6 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-.object-center {
-  -o-object-position: center;
-     object-position: center;
 }
 .pt-2 {
   padding-top: 0.5rem;

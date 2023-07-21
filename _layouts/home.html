@@ -3,15 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<title>{{ page.title }} - {{ site.title }}</title>
-		<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-		<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="./assets/css/main.css">
+		<link rel="icon" href="./favicon.svg" type="image/svg+xml">
 	</head>
 
 	<body>
 		<nav class="fixed flex inset-y-0 right-10">
 			<ul class="mt-10 sm:my-auto">
 				{% for item in site.data.navigation %}
-					<li {% if page.url == item.link %}class="font-bold"{% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
+					<li {% if page.url == item.link %}class="font-bold"{% endif %}><a href=".{{ item.link }}">{{ item.name }}</a></li>
+					<p>{{ page.url }}</p>
 				{% endfor %}
 			</ul>
 		</nav>

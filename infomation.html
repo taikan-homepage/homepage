@@ -8,7 +8,7 @@ title: Blog
 			<img class="w-100% aspect-video object-cover rounded saturate-0 hover:saturate-100 blog-shadow" src="{{ post.thumbnail }}">
 			<div class="pt-2">
 				<p class="block text-sm font-light">{{ post.date | date: "%Y %m/%d" }}</p>
-				<a href="{{ post.url }}" class="block font-bold">{{ post.title }}</a>
+				<a href="./{{ post.url }}" class="block font-bold">{{ post.title }}</a>
 			</div>
 		</div>
 	{% endfor %}
